@@ -48,14 +48,18 @@ h1 {
 /* Title Image */
 
 .dog-image {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  padding-left: 3rem;
 }
 
 /*Features*/
 
 #features {
   padding: 7% 15%;
+  position: relative;
+  z-index: -1;
 }
 
 .feature-box {
@@ -83,7 +87,9 @@ h3 {
   text-align: center;
   background-color: #ef8172;
   color: white;
+ 
 }
+
 
 h2 {
   font-family: "montserrat"-bold;
@@ -93,19 +99,32 @@ h2 {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
+  
 }
 
 #press {
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .img {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
